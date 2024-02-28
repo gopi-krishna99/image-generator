@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins','Arial';
+    box-sizing: border-box;
+}
+body{
+    background:#1E1E1E;
+    color: white;
+
+}
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: bolder;
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    font-size: 70px;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background:#434989;
+    display: flex;
+    align-items:center;
+
+}
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background:transparent;
+    color: #fff;
+    font-size:18px;
+    padding: 0 30px;
+    border-radius: 8px;
+
+}
+form button{
+    padding: 0 40px;
+    height: 100%;
+    background:yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    cursor: pointer;
+}
+form button:hover{
+    padding: 0 40px;
+    height: 100%;
+    background:yellowgreen;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    /* border-top-right-radius:8px;
+    border-bottom-right-radius:8px; */
+    cursor: pointer;
+}
+::placeholder{
+    color: gray;
+    font-size: 18px;
+    
+}
+#show-more-btn{
+    background:yellow;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    padding: 20px 40px;
+    /* border-radius: 4px; */
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
+#show-more-btn:hover{
+    background:yellowgreen;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
+#search-result{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    
+
+}
+#search-result img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
